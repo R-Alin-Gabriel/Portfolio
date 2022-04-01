@@ -3,7 +3,7 @@ import "../../src/index.css"
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full min-h-screen  bg-[#0a192f] flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/feb3d0aa-1560-4555-8300-aa74aa3a9aef" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-4 pt-24'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#00ff00] text-gray-300'>Contact</p>
